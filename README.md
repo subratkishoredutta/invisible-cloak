@@ -10,5 +10,7 @@ after that run the code GS.py for the image processing to begin
 
 few insights:
 1. basic bitwise operations like AND and NOT are involved
+
 2.no deep leaarning or machine learning is involved
+
 3.the concept is same as how green screen works 
