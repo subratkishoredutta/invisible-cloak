@@ -44,8 +44,7 @@ while True:
      cv2.imshow('img',img)
      cv2.imshow('mask',mask)
      #cv2.imwrite('mask.jpg',mask)
-     key = cv2.waitKey(1) & 0xFF
-     if key == 27:
+     if cv2.waitKey(10) & 0xFF==ord('q'):
          break
 
 
