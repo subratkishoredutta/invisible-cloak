@@ -18,7 +18,7 @@ i=0
 while i<10:
     i+=1
     _,background= cam.read()
-    #background=cv2.imread("DSCC.png")
+    #background=cv2.imread("your_image")  ## you can replace the 'your_image' by any image you like to get the green screen effect just this time hold the cloak at your background
 
     
 replacefrm=cv2.resize(background,(1000,1000))
